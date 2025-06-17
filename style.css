@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+     color: white;
+    
+}
+html {
+  scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    gap: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+nav h1{
+    margin-right: 300px;
+    font-size: 40px;
+}
+.header{
+    background-color: rgb(192 49 49);
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+}
+.welcome_card{
+    margin-top: 30px;
+    background-image: url(./back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+}
+.welcome_card h1{
+    font-size: 100px;
+}
+button{
+    font-size: 30px;
+    color:white;
+    background-color: gray;
+    margin-top: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+.about{
+    background-color: #FFC067;
+}
+.reservation{
+    background-color: #24463e;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    gap: 30px;
+    justify-content: space-between;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 75%;
+    align-items: center;
+    margin-right: 100px;
+}
+.reservation h1{
+    font-size: 50px;
+}
+.reservation p{
+    font-size: 30px;
+}
+.Gallery{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFC067;
+    align-items: center;
+    
+}
+.image_gallery{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 20px;
+}
+.image_gallery img{
+    width: 300px;
+    border-radius: 20px;
+}
+.Gallery h1{
+    color: #24463e;
+    font-size: 50px;
+}
+footer{
+    height: 10vh;
+    padding: 30px;
+    background-color: #FFC067;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer h1{
+    color:#24463e;
+    font-size: 20px;
+}
+hr{
+    border: 3px solid white;
+}
+.about{
+    display: flex;
+    color: black;
+}
+.about_image{
+ 
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.about_image img{
+    width: 100%;
+    height: auto;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.text h1{
+    font-size: 40px;
+    color: black;
+}
+.text p{
+    font-size: 20px;
+    padding: 60px;
+    color: black;
+}
+@media(max-width:720px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+        margin-top: 10px;
+    }
+    .reservation p{
+        font-size: 20px;
+    }
+    button{
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    .image_gallery{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+}
